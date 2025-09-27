@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extensions>
   <plugins>
-    <plugin name="SimpleAudioDSP" version="1.0.1" minTarget="7.9" maxTarget="*">
+    <plugin name="SimpleAudioDSP" version="1.0.2" minTarget="7.9" maxTarget="*">
       <title lang="EN">SimpleAudioDSP</title>
-      <desc lang="EN">Audio processing plugin with C-3PO structure</desc>
+      <desc lang="EN">Working plugin with proper LMS settings interface</desc>
       <category>audio</category>
       <creator>mellowsoftwarehouse</creator>
       <email>mellow@softwarehouse.com</email>
       <homepageURL>https://github.com/mellowsoftwarehouse/SimpleAudioDSP</homepageURL>
-      <url>https://raw.githubusercontent.com/mellowsoftwarehouse/SimpleAudioDSP/main/packages/SimpleAudioDSP-1.0.1.zip</url>
-      <sha>a3b58d50d5edf0d62b39af2c25a7faf8b3a38baf</sha>
+      <url>https://raw.githubusercontent.com/mellowsoftwarehouse/SimpleAudioDSP/main/packages/SimpleAudioDSP-1.0.2.zip</url>
+      <sha>b6ee92f08977aa74a910f633827226e7edca1771</sha>
     </plugin>
   </plugins>
 </extensions>

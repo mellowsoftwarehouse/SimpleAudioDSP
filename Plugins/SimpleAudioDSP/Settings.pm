@@ -21,4 +21,19 @@ sub prefs {
     return ($prefs, qw(enabled));
 }
 
+sub handler {
+    my ($class, $client, $params) = @_;
+    
+    if ($params->{saveSettings}) {
+        $prefs->set('enabled', $params->{pref_enabled} ? 1 : 0);
+        $log->info("SimpleAudioDSP settings saved: enabled=" . ($params->{pref_enabled} || 0));
+    }
+    
+    $params->{prefs} = {
+        enabled => $prefs->get('enabled') || 0,
+    };
+    
+    return $class->SUPER::handler($client, $params);
+}
+
 1;

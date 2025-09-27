@@ -1,10 +1,8 @@
 [% PROCESS settings/header.html %]
-<h2>Simple Audio DSP</h2>
-<form method="POST">
-    <p>
-        <input type="checkbox" name="enabled" id="enabled" value="1" [% IF prefs.enabled %]checked[% END %]>
-        <label for="enabled">Enable Audio Processing</label>
-    </p>
-    <input type="submit" name="saveSettings" value="Apply">
-</form>
+
+[% WRAPPER setting title="PLUGIN_SIMPLEAUDIODSP" desc="PLUGIN_SIMPLEAUDIODSP_DESC" %]
+    <input name="pref_enabled" type="checkbox" [% IF prefs.enabled %] checked [% END %]>
+    <label for="pref_enabled">Enable Audio Processing</label>
+[% END %]
+
 [% PROCESS settings/footer.html %]

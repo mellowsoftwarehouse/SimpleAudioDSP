@@ -3,7 +3,7 @@
 	<id>91d8fb10-saudio-11e3-ac10-0800200c9a66</id>
 	<name>PLUGIN_SIMPLEAUDIODSP</name>
 	<module>Plugins::SimpleAudioDSP::Plugin</module>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>PLUGIN_SIMPLEAUDIODSP_DESC</description>
 	<creator>mellowsoftwarehouse</creator>
 	<email>mellow@softwarehouse.com</email>
