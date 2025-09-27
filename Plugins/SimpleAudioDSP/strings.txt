@@ -1,0 +1,2 @@
+PLUGIN_SIMPLEAUDIODSP	Simple Audio DSP
+PLUGIN_SIMPLEAUDIODSP_DESC	Audio processing plugin
