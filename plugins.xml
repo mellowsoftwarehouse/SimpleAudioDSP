@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extensions>
+  <plugins>
+    <plugin name="SimpleAudioDSP" version="1.0.0" minTarget="7.9" maxTarget="*">
+      <title lang="EN">SimpleAudioDSP</title>
+      <desc lang="EN">Simple audio processing plugin</desc>
+      <category>audio</category>
+      <creator>mellowsoftwarehouse</creator>
+      <email>mellow@softwarehouse.com</email>
+      <homepageURL>https://github.com/mellowsoftwarehouse/SimpleAudioDSP</homepageURL>
+      <url>https://raw.githubusercontent.com/mellowsoftwarehouse/SimpleAudioDSP/main/packages/SimpleAudioDSP-1.0.0.zip</url>
+      <sha>ebb40ebdf412ae8af0d4bfdbb26093a0b5f1bcb9</sha>
+    </plugin>
+  </plugins>
+</extensions>
