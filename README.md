@@ -56,7 +56,7 @@ Each player can have independent settings:
 ### Step 2: Upload FIR Files to Server
 
 Upload your FIR WAV files to your Lyrion Music Server via SFTP/SCP:
-```bash
+
 scp left_channel_fir.wav root@[SERVER_IP]:/tmp/fir/
 scp right_channel_fir.wav root@[SERVER_IP]:/tmp/fir/
 
